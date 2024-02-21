@@ -1,5 +1,6 @@
 import Link from "next/link";
 import styles from "./Hero.module.css";
+import Image from "next/image";
 function Hero() {
   return (
     <section className={styles.heroContainer}>
@@ -39,7 +40,13 @@ function Hero() {
           </div>
         </div>
         <div className="imgContainer">
-          <img src={"/HeroImg.svg"} alt="boy and girl chating on whatsapp" />
+          <Image
+            src={"/HeroImg.svg"}
+            alt="boy and girl chating on whatsapp"
+            width={546}
+            height={364}
+            layout="responsive"
+          />
         </div>
       </div>
     </section>
