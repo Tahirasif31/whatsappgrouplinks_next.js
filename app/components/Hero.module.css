@@ -135,11 +135,8 @@
     grid-template-columns: 1fr;
   }
 
-  /* .textContainer {
+  .textContainer {
     grid-row: 2/3;
-  } */
-  .heroImage {
-    display: none;
   }
 }
 @media screen and (max-width: 320px) {
