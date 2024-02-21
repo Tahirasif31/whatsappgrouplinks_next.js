@@ -13,7 +13,7 @@
   align-items: center;
 }
 .logo {
-  color: var(--White, #fff);
+  /* color: #bbbbcb; */
   font-family: Poppins;
   font-size: 1.6rem;
   font-style: normal;
