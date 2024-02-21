@@ -41,7 +41,6 @@ function Hero() {
         </div>
         <div className="imgContainer">
           <Image
-            className={styles.heroImage}
             src={"/HeroImg.svg"}
             alt="boy and girl chating on whatsapp"
             width={546}
