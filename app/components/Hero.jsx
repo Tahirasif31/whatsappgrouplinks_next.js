@@ -2,13 +2,13 @@ import Link from "next/link";
 import styles from "./Hero.module.css";
 function Hero() {
   return (
-    <div className={styles.heroContainer}>
+    <section className={styles.heroContainer}>
       <div className={styles.hero}>
         <div className={styles.textContainer}>
           <h1>Join Thousands Whatsapp Groups for free</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt.
+            Explore the definitive platform for discovering and sharing WhatsApp
+            group links effortlessly.
           </p>
           <div className={styles.buttons}>
             <Link
@@ -39,10 +39,10 @@ function Hero() {
           </div>
         </div>
         <div className="imgContainer">
-          <img src={"/HeroImg.svg"} />
+          <img src={"/HeroImg.svg"} alt="boy and girl chating on whatsapp" />
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

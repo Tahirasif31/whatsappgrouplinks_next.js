@@ -27,7 +27,7 @@ function ContactUs() {
   }
 
   return (
-    <div>
+    <main>
       <div>
         <h2 className={styles.title}>Submit Your Groups</h2>
         <p className={styles.description}>
@@ -98,7 +98,7 @@ function ContactUs() {
         </div>
         <button className={styles.btn}>Submit</button>
       </form>
-    </div>
+    </main>
   );
 }
 export default ContactUs;

@@ -3,10 +3,10 @@ import Main from "./categories/page";
 
 function Home() {
   return (
-    <div>
+    <>
       <Hero />
       <Main />
-    </div>
+    </>
   );
 }
 

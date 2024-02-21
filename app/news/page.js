@@ -10,15 +10,15 @@ function News() {
   if (isLoading) return <p>Loading</p>;
 
   return (
-    <div className="container">
+    <main className="container">
       <Heading title={"News"} />
-      <div className="content-container">
+      <section className="content-container">
         <LinkHeader />
         {groups.map((group) => (
           <LinkRows group={group} key={group} />
         ))}
-      </div>
-    </div>
+      </section>
+    </main>
   );
 }
 
