@@ -1,7 +1,7 @@
 import Heading from "../components/Heading";
 import Fetcher from "../components/Fetcher";
 
-function Girls() {
+function Others() {
   return (
     <main className="container">
       <Heading title={"Fun Groups"} end={"Entertainment"} />
@@ -22,4 +22,4 @@ function Girls() {
   );
 }
 
-export default Girls;
+export default Others;
