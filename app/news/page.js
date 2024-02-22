@@ -2,12 +2,13 @@
 import Heading from "../components/Heading";
 import LinkHeader from "../components/LinkHeader";
 import LinkRows from "../components/LinkRows";
+import LoadingSpinner from "../components/LoadingSpinner";
 import { useFetchGroups } from "../hooks/useFetchGroups";
 
 function News() {
   const [groups, isLoading] = useFetchGroups("news");
 
-  if (isLoading) return <p>Loading</p>;
+  if (isLoading) return <LoadingSpinner />;
 
   return (
     <main className="container">
