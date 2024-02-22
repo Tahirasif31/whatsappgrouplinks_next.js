@@ -1,13 +1,13 @@
 import Heading from "../components/Heading";
-import Fetcher from "./Fetcher";
+import Fetcher from "../components/Fetcher";
 
 function News() {
   return (
     <main className="container">
-      <Heading title={"News"} />
+      <Heading title={"News"} end={"Daily News"} />
       <article className="content-article">
-        Welcome to our Daily News WhatsApp group Communities, where staying
-        informed is just a message away! Join our dynamic community of avid news
+        Welcome to our WhatsApp Daily News Group Links, where staying informed
+        is just a message away! Join our dynamic community of avid news
         enthusiasts to receive real-time updates on the latest headlines,
         trends, and stories shaping the world. From breaking news alerts to
         in-depth analysis and thought-provoking discussions, our WhatsApp groups

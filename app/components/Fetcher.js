@@ -1,11 +1,10 @@
 "use client";
-import Heading from "../components/Heading";
-import LinkHeader from "../components/LinkHeader";
-import LinkRows from "../components/LinkRows";
-import LoadingSpinner from "../components/LoadingSpinner";
+import LinkHeader from "./LinkHeader";
+import LinkRows from "./LinkRows";
+import LoadingSpinner from "./LoadingSpinner";
 import { useFetchGroups } from "../hooks/useFetchGroups";
-function Fetcher() {
-  const [groups, isLoading] = useFetchGroups("news");
+function Fetcher({ title }) {
+  const [groups, isLoading] = useFetchGroups(title);
 
   if (isLoading) return <LoadingSpinner />;
 
