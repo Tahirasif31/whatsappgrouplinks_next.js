@@ -1,6 +1,22 @@
 .title {
   background-color: #edf2f7;
+  font-size: 4.8rem;
   border-left: 10px solid #128b7e;
   padding: 5px 10px;
-  margin-bottom: 24px;
+}
+
+@media screen and (max-width: 780px) {
+  .title {
+    font-size: 3.2rem;
+  }
+}
+@media screen and (max-width: 780px) {
+  .title {
+    font-size: 3.2rem;
+  }
+}
+@media screen and (max-width: 430px) {
+  .title {
+    font-size: 2.4rem;
+  }
 }

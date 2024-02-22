@@ -1,24 +1,24 @@
-"use client";
 import Heading from "../components/Heading";
-import LinkHeader from "../components/LinkHeader";
-import LinkRows from "../components/LinkRows";
-import LoadingSpinner from "../components/LoadingSpinner";
-import { useFetchGroups } from "../hooks/useFetchGroups";
+import Fetcher from "./Fetcher";
 
 function News() {
-  const [groups, isLoading] = useFetchGroups("news");
-
-  if (isLoading) return <LoadingSpinner />;
-
   return (
     <main className="container">
       <Heading title={"News"} />
-      <section className="content-container">
-        <LinkHeader />
-        {groups.map((group) => (
-          <LinkRows group={group} key={group} />
-        ))}
-      </section>
+      <article className="content-article">
+        Welcome to our Daily News WhatsApp group Communities, where staying
+        informed is just a message away! Join our dynamic community of avid news
+        enthusiasts to receive real-time updates on the latest headlines,
+        trends, and stories shaping the world. From breaking news alerts to
+        in-depth analysis and thought-provoking discussions, our WhatsApp groups
+        delivers curated content straight to your device, ensuring you're always
+        ahead of the curve. Whether you're passionate about politics, business,
+        technology, entertainment, or sports, our group covers it all, fostering
+        a vibrant space for sharing knowledge and insights. Don't miss out on
+        being part of this engaging community—Join now and experience the
+        convenience of staying informed right at your fingertips.
+      </article>
+      <Fetcher title={"news"} />
     </main>
   );
 }
