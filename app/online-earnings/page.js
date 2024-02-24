@@ -19,11 +19,11 @@ function OnlineEarnings() {
         earners, gain access to exclusive resources, and stay updated on the
         latest trends and strategies in the world of online earning. Whether
         you&apos;re a seasoned entrepreneur or just starting your journey,
-        we&apos;re here to support you every step of the way. Let's turn your
-        dreams of financial independence into reality&mdash;join groups now and
-        start your journey towards unlimited earning potential!
+        we&apos;re here to support you every step of the way. Let&apos;s turn
+        your dreams of financial independence into reality&mdash;join groups now
+        and start your journey towards unlimited earning potential!
       </article>
-      <Fetcher title={"business"} />
+      <Fetcher title={"onlineEarnings"} />
     </main>
   );
 }

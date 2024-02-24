@@ -19,7 +19,7 @@ function BuySell() {
         to the hassle of traditional marketplaces and join our community today
         to unlock endless possibilities for buying and selling with ease!
       </article>
-      <Fetcher title={"buysell"} />
+      <Fetcher title={"buySell"} />
     </main>
   );
 }

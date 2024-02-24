@@ -18,7 +18,7 @@ function Nav() {
           href={"/"}
           className={`${styles.link} ${pathname === "/" ? styles.active : ""}`}
         >
-          <span className={styles.logo}>Whatsapp Communities</span>
+          <span className={styles.logo}>Whatsapp Connects</span>
         </Link>
         <nav className={styles.navigation}>
           <ul className={styles.ul}>
