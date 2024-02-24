@@ -96,6 +96,10 @@
   margin-top: 1.6rem;
 }
 
+.error {
+  border: 2px solid red;
+}
+
 @media screen and (max-width: 510px) {
   .formContainer {
     padding: 2rem 4rem;

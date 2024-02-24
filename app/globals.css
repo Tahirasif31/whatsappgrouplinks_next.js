@@ -66,6 +66,10 @@ main {
 .categories-main {
   margin-bottom: 14rem;
 }
+input:focus {
+  outline: none; /* Remove the default focus outline */
+  /* Add any additional styles to make it appear as though it's not focused */
+}
 @media screen and (max-width: 1200px) {
   .categories-container {
     max-width: 100rem;
