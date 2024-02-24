@@ -21,12 +21,29 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div>
-          <h2>Submit Your Groups!</h2>
-          <p>
+        <div className={styles.submit}>
+          <h2 className={styles.submitTitle}>Let&apos;s Submit!</h2>
+          <p className={styles.submitDescription}>
             Share your WhatsApp group links hassle-free on our convenient
             submission page and connect with like-minded individuals instantly!
           </p>
+          <div className={styles.icons}>
+            <ion-icon name={"logo-facebook"}></ion-icon>
+            <ion-icon name={"logo-twitter"}></ion-icon>
+            <ion-icon name={"logo-instagram"}></ion-icon>
+            <ion-icon name={"logo-linkedin"}></ion-icon>
+          </div>
+        </div>
+      </div>
+      <div className={styles.footerBottomContainer}>
+        <div className={styles.footerBottom}>
+          <p className={styles.copyright}>&copy; Copyright 2024</p>
+          <ul className={styles.footerLinks}>
+            <li className={styles.link}>Home</li>
+            <li className={styles.link}>Categories</li>
+            <li className={styles.link}>Privacy Policy</li>
+            <li className={styles.link}>Contact us</li>
+          </ul>
         </div>
       </div>
     </footer>

@@ -19,6 +19,9 @@ main {
   background: var(--Grey, #f4f6fc);
   margin: 0 auto;
 }
+.content-container {
+  margin-bottom: 14rem;
+}
 .categories-container {
   max-width: 140rem;
   margin: 0 auto;
@@ -60,6 +63,9 @@ main {
   padding: 1.6rem 2.8rem 2.8rem 2.8rem;
   background-color: #fff;
 }
+.categories-main {
+  margin-bottom: 14rem;
+}
 @media screen and (max-width: 1200px) {
   .categories-container {
     max-width: 100rem;
@@ -86,6 +92,7 @@ main {
     background-color: #fff;
   }
 }
+
 @media screen and (max-width: 1420px) {
   html {
     font-size: 52% !important;

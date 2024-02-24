@@ -24,7 +24,7 @@
   display: flex;
   /* align-items: center;
   justify-content: center; */
-  margin: 2.8rem 2.4rem;
+  margin: 3.8rem 2.4rem 0 2.4rem;
   gap: 3.8rem;
   color: black;
   padding: 1.8rem 0 1.8rem 3.8rem;
@@ -36,6 +36,7 @@
   font-style: normal;
   font-weight: 500;
   line-height: 2.8rem; /* 175% */
+  margin-top: 1.8rem;
 }
 .description {
   font-size: 1.6rem;
@@ -52,4 +53,84 @@
 .address {
   font-size: 1.6rem;
   color: #282938;
+}
+
+.submitTitle {
+  font-size: 3.4rem;
+  font-weight: 600;
+}
+.submitDescription {
+  font-size: 1.6rem;
+  color: #f4f6fc;
+  margin-top: 1.2rem;
+}
+.icons {
+  margin-top: 2.4rem;
+  display: flex;
+  gap: 1.6rem;
+}
+.footerBottomContainer {
+  background-color: #fff;
+  font-size: 1.6rem;
+}
+.footerBottom {
+  display: flex;
+  justify-content: space-between;
+  max-width: 137rem;
+  margin: 0 auto;
+  padding: 2rem;
+  color: #282938;
+}
+
+.footerLinks {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+@media screen and (max-width: 880px) {
+  .contactContainer {
+    gap: 1.8rem;
+    color: black;
+    padding: 0.8rem 0 0.8rem 1.8rem;
+  }
+  .container {
+    gap: 1.8rem;
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 780px) {
+  /* .container {
+        grid-template-columns: 1fr;
+    } */
+
+  .contactContainer {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 590px) {
+  .contactContainer {
+    flex-direction: row;
+  }
+  .join {
+    padding: 2.4rem;
+  }
+  .container {
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+  .submit {
+    padding: 2.4rem;
+  }
+  .footerBottom {
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+  .footerLinks {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 390px) {
+  .contactContainer {
+    flex-direction: column;
+  }
 }

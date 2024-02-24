@@ -27,7 +27,7 @@ function ContactUs() {
   }
 
   return (
-    <main>
+    <main className={styles.contactContainer}>
       <div>
         <h2 className={styles.title}>Submit Your Groups</h2>
         <p className={styles.description}>

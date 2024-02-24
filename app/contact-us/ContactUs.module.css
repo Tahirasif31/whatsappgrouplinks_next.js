@@ -1,3 +1,9 @@
+.contactContainer {
+  background-color: #fff;
+  margin-top: 4rem;
+  margin-bottom: 14rem;
+}
+
 .title {
   color: var(--Dark-blue, #282938);
   text-align: center;
