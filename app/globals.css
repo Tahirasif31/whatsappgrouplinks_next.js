@@ -86,12 +86,6 @@ main {
     background-color: #fff;
   }
 }
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-}
 @media screen and (max-width: 1420px) {
   html {
     font-size: 52% !important;

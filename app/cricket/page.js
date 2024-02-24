@@ -4,7 +4,7 @@ import Fetcher from "../components/Fetcher";
 function Cricket() {
   return (
     <main className="container">
-      <Heading title={"Cricket"} end={"Real-Time Updates"} />
+      <Heading title={"Cricket"} end={"for Real-Time Updates"} />
       <article className="content-article">
         Welcome to the ultimate hub for WhatsApp cricket group links! If
         you&apos;re a die-hard cricket fan seeking a vibrant community to share

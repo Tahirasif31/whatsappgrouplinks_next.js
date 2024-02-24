@@ -4,7 +4,7 @@ import Fetcher from "../components/Fetcher";
 function Others() {
   return (
     <main className="container">
-      <Heading title={"Fun Groups"} end={"Entertainment"} />
+      <Heading title={"Fun Groups"} end={"for Entertainment"} />
       <article className="content-article">
         Welcome to the ultimate hub of fun and entertainment! Dive into a world
         of laughter, excitement, and endless amusement by joining our exclusive

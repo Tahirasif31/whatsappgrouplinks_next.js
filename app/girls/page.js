@@ -6,7 +6,7 @@ function Girls() {
     <main className="container">
       <Heading
         title={"Girls Communities"}
-        end={"empowering discussions, support, and connections!"}
+        end={"for empowering discussions, support, and connections!"}
       />
       <article className="content-article">
         Welcome to the ultimate destination for girls seeking connection,

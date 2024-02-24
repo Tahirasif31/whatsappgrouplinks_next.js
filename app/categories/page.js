@@ -33,6 +33,24 @@ function Main() {
       route: "girls",
     },
     {
+      img: "/card-seven.jpg",
+      title: "Buy & Sell Groups",
+      description: "join all kind of groups for fun",
+      route: "buy-sell",
+    },
+    {
+      img: "/card-eight.jpg",
+      title: "Jobs Groups",
+      description: "join all kind of groups for fun",
+      route: "jobs",
+    },
+    {
+      img: "/card-nine.jpg",
+      title: "Online Earnings Groups",
+      description: "join all kind of groups for fun",
+      route: "online-earnings",
+    },
+    {
       img: "/card-six.jpg",
       title: "Other Groups",
       description: "join all kind of groups for fun",

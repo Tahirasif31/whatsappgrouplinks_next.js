@@ -4,7 +4,10 @@ import Fetcher from "../components/Fetcher";
 function Business() {
   return (
     <main className="container">
-      <Heading title={"Business"} end={"Business Network"} />
+      <Heading
+        title={"Business"}
+        end={"to Connect with Global Business Network"}
+      />
       <article className="content-article">
         Welcome to WhatsApp Business Group Links, your premier destination for
         connecting with top&mdash;tier business communities and networking
