@@ -15,7 +15,7 @@ html {
 
 /* Hero Section */
 
-main {
+.main {
   background: var(--Grey, #f4f6fc);
   margin: 0 auto;
 }
@@ -37,6 +37,7 @@ main {
   max-width: 140rem;
   margin: 2rem auto 0;
   font-family: "Be Vietnam Pro";
+  padding: 0 1.4rem;
 }
 .content-header {
   background-color: #128b7e !important;
@@ -48,16 +49,27 @@ main {
   align-items: center;
   justify-content: center;
   background-color: #edf2f7;
+  border: 1px solid rgba(113, 128, 150, 0.42);
+}
+.cols-header {
+  padding: 2.4rem 0 2.4rem 0 !important;
+  font-size: 3.2rem !important;
 }
 .rows .col-left {
   border: 1px solid rgba(113, 128, 150, 0.42) !important;
 }
 .cols {
-  border: 1px solid #718096;
+  border-right: 1px solid #718096;
   text-align: center;
   padding: 0.5rem 0;
   font-size: 2.4rem;
 }
+.cols-link {
+  text-align: center;
+  padding: 0.5rem 0;
+  font-size: 2.4rem;
+}
+
 .content-article {
   font-size: 2.4rem;
   padding: 1.6rem 2.8rem 2.8rem 2.8rem;
@@ -105,5 +117,17 @@ input:focus {
 @media screen and (max-width: 1070px) {
   html {
     font-size: 48% !important;
+  }
+}
+@media screen and (max-width: 400px) {
+  .cols {
+    font-size: 1.8rem;
+  }
+  .cols-link {
+    font-size: 1.8rem;
+  }
+  .cols-header {
+    padding: 1.8rem 0 1.8rem 0 !important;
+    font-size: 2.6rem !important;
   }
 }

@@ -58,7 +58,7 @@ function Main() {
     },
   ];
   return (
-    <main className="categories-main">
+    <main className="categories-main main">
       <div className="categories-container">
         <div className="categories">
           {categories.map((category) => (
