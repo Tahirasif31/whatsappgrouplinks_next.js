@@ -20,6 +20,11 @@ export default function RootLayout({ children }) {
           type="image/<generated>"
           sizes="<generated>"
         />
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7640990843013590"
+          crossorigin="anonymous"
+        ></script>
       </head>
       <body className={inter.className}>
         <header>
