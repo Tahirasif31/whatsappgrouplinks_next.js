@@ -1,0 +1,30 @@
+.container {
+  max-width: 137rem;
+  padding: 0 2rem;
+  margin: 0 auto 14rem auto;
+}
+
+.title {
+  font-size: 3.8rem;
+  margin: 2rem auto;
+}
+.text {
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+.secTitle {
+  margin-top: 5px;
+  font-size: 3.2rem;
+  margin-bottom: 12px;
+}
+.list {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.listItem {
+  margin-bottom: 12px;
+}
+.bold {
+  font-size: 2.4rem;
+  font-weight: 600;
+}

@@ -1,3 +1,5 @@
+"use client";
+import Link from "next/link";
 import styles from "./Footer.module.css";
 
 function Footer() {
@@ -39,10 +41,26 @@ function Footer() {
         <div className={styles.footerBottom}>
           <p className={styles.copyright}>&copy; Copyright 2024</p>
           <ul className={styles.footerLinks}>
-            <li className={styles.link}>Home</li>
-            <li className={styles.link}>Categories</li>
-            <li className={styles.link}>Privacy Policy</li>
-            <li className={styles.link}>Contact us</li>
+            <li className={styles.link}>
+              <Link href={"/"} className={styles.link}>
+                Home
+              </Link>
+            </li>
+            <li className={styles.link}>
+              <Link href={"/categories"} className={styles.link}>
+                Categories
+              </Link>
+            </li>
+            <li className={styles.link}>
+              <Link href={"/privacy"} className={styles.link}>
+                Privacy Policy
+              </Link>
+            </li>
+            <li className={styles.link}>
+              <Link href={"/contact-us"} className={styles.link}>
+                Contact us
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
