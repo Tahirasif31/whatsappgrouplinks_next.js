@@ -14,6 +14,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        <script
+          src="https://alwingulla.com/88/tag.min.js"
+          data-zone="47602"
+          async
+          data-cfasync="false"
+        ></script>
         <link
           rel="icon"
           href="/icon?<generated>"
