@@ -62,7 +62,7 @@ function Footer() {
               </Link>
             </li>
           </ul>
-        </div>
+        </div> 
       </div>
     </footer>
   );

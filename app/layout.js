@@ -25,6 +25,7 @@ export default function RootLayout({ children }) {
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7640990843013590"
           crossorigin="anonymous"
         ></script>
+        <meta name="monetag" content="80f09d4f51da7a9fadc272d3b8a5624d"></meta>
       </head>
       <body className={inter.className}>
         <header>
